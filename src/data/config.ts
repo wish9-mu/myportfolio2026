@@ -4,7 +4,7 @@
 
 export const config = {
   name: 'Luis Arnold Respecio',
-  initials: '<L/>',
+  initials: '<LUIS RESPECIO/>',
   title: 'Software Developer',
   tagline: 'BUILDING SYSTEMS. DESIGNING EXPERIENCES.',
   description:

@@ -7,32 +7,37 @@ export interface SkillGroup {
 export const skills: SkillGroup[] = [
   {
     id: '01',
-    label: 'Frontend',
-    skills: ['React', 'TypeScript', 'JavaScript', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+    label: 'Programming Languages',
+    skills: ['Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'SQL', 'PHP', 'Kotlin'],
   },
   {
     id: '02',
-    label: 'Backend',
-    skills: ['Node.js', 'Python', 'REST APIs', 'GraphQL', 'Supabase', 'FastAPI'],
+    label: 'Web Development',
+    skills: ['HTML5', 'CSS3', 'React.js', 'Shopify Liquid', 'Responsive Web Design', 'REST APIs'],
   },
   {
     id: '03',
-    label: 'Data',
-    skills: ['SQL', 'PostgreSQL', 'dbt', 'Pandas', 'Apache Airflow', 'D3.js'],
+    label: 'Quality Assurance',
+    skills: ['Functional Testing', 'Test Case Execution', 'API Testing', 'Integration Testing', 'SIT / UAT', 'Defect Reporting', 'Retesting', 'Proof of Testing Documentation'],
   },
   {
     id: '04',
-    label: 'AI / ML',
-    skills: ['PyTorch', 'scikit-learn', 'OpenCV', 'ONNX', 'Hugging Face', 'LangChain'],
+    label: 'Data & Databases',
+    skills: ['SQL', 'Supabase', 'NoSQL', 'Data Cleaning', 'Data Validation', 'Exploratory Data Analysis', 'Feature Engineering', 'Machine Learning'],
   },
   {
     id: '05',
-    label: 'Infrastructure',
-    skills: ['Docker', 'AWS', 'Linux', 'Nginx', 'Redis', 'Git'],
+    label: 'Developer & QA Tools',
+    skills: ['Git', 'GitHub', 'Azure DevOps', 'Katalon Studio', 'SoapUI', 'Temenos T24 / T25', 'Microsoft Copilot', 'ChatGPT'],
   },
   {
     id: '06',
-    label: 'Design',
-    skills: ['Figma', 'UI/UX', 'Design Systems', 'Prototyping', 'Typography'],
+    label: 'Productivity & Creative',
+    skills: ['Microsoft Excel', 'Microsoft Word', 'PowerPoint', 'Adobe Photoshop', 'Adobe Lightroom', 'Canva', 'Final Cut Pro X'],
+  },
+  {
+    id: '07',
+    label: 'Supporting Knowledge',
+    skills: ['SDLC', 'Requirements Analysis', 'Analytical Troubleshooting', 'Networking Fundamentals', 'Hardware Diagnostics'],
   },
 ]

@@ -8,35 +8,27 @@ export interface Experience {
 
 export const experience: Experience[] = [
   {
-    year: '2026',
-    company: 'Freelance / Independent',
-    role: 'Software Developer · UI Engineer',
+    year: 'Apr - Jul 2026',
+    company: 'EastWest Bank',
+    role: 'Testing Intern',
     description:
-      'Designing and building full-stack applications, data pipelines, and AI-integrated systems for clients across different sectors. Handling end-to-end delivery from architecture to deployment.',
-    technologies: ['React', 'TypeScript', 'Python', 'Supabase', 'AWS'],
+      'Executed functional, automated, API, and integration testing for the EWB RB project. Validated results, documented defects in Azure DevOps, and used company-approved Copilot AI to support test documentation, analysis, and reporting.',
+    technologies: ['T24 / Temenos', 'Katalon Studio', 'SoapUI', 'Azure DevOps', 'Copilot AI'],
   },
   {
-    year: '2025',
-    company: 'Project Collaboration',
-    role: 'Frontend Engineer · Data Engineer',
+    year: 'Mar - Jul 2026',
+    company: 'The Living Textiles',
+    role: 'Shopify Web Developer',
     description:
-      'Led frontend architecture for a collaborative platform, while contributing to the data layer — building ETL pipelines and analytics dashboards that gave the team real-time operational visibility.',
-    technologies: ['Next.js', 'Node.js', 'PostgreSQL', 'dbt', 'Airflow'],
+      'Configured and updated Shopify themes, page layouts, product information, navigation, and storefront content. Performed functional and usability checks before publishing changes to reduce storefront defects.',
+    technologies: ['Shopify', 'Shopify Liquid', 'HTML5', 'CSS3', 'Responsive Web Design'],
   },
   {
-    year: '2024',
-    company: 'Academic / Research',
-    role: 'ML Research Developer',
+    year: 'Mar 2023 - Mar 2026',
+    company: 'Division Designs',
+    role: 'Operations Manager',
     description:
-      'Built computer vision models for object classification research. Designed training pipelines, handled data preprocessing, and optimised models for edge inference using ONNX.',
-    technologies: ['Python', 'PyTorch', 'OpenCV', 'ONNX', 'Docker'],
-  },
-  {
-    year: '2023',
-    company: 'Open Source / Personal',
-    role: 'Full-Stack Developer',
-    description:
-      'Shipped personal projects exploring real-time systems, UI engineering, and web performance. Contributed to open-source tools in the React ecosystem.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
+      'Managed and maintained multi-platform e-commerce operations across Shopee, Lazada, and TikTok Shop, coordinating product content and day-to-day operational priorities.',
+    technologies: ['Shopee', 'Lazada', 'TikTok Shop', 'E-commerce Operations'],
   },
 ]

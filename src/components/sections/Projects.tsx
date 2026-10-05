@@ -220,6 +220,17 @@ function ProjectShowcase({ project, index, reverse }: ShowcaseProps) {
 }
 
 function ProjectVisual({ project }: { project: Project }) {
+  if (project.image) {
+    return (
+      <img
+        src={project.image}
+        alt={`${project.title} project thumbnail`}
+        className="h-full w-full object-cover"
+        loading="lazy"
+      />
+    )
+  }
+
   // Abstract visual based on project index
   const colors: [string, string][] = [
     ['rgba(91,184,212,0.3)', 'rgba(74,127,165,0.15)'],

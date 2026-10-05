@@ -44,10 +44,23 @@ export default function Hero() {
       >
         {/* Top metadata row — mobile */}
         <div className="pt-24 md:pt-0 mb-8 md:hidden">
-          <div className="flex flex-wrap gap-x-4 gap-y-1">
-            <MetaTag>Software Developer</MetaTag>
-            <MetaTag>Data / AI</MetaTag>
-            <MetaTag>Based / PH</MetaTag>
+          <div className="flex items-start justify-between gap-6">
+            <div className="flex flex-wrap gap-x-4 gap-y-1 pt-2">
+              <MetaTag>Software Developer</MetaTag>
+              <MetaTag>Data / AI</MetaTag>
+              <MetaTag>Based / PH</MetaTag>
+            </div>
+
+            <div className="relative w-24 shrink-0 overflow-hidden border border-white/20 bg-black/20">
+              <img
+                src="/images/profile.png"
+                alt={config.name}
+                className="aspect-[4/5] h-auto w-full object-cover"
+              />
+              <span className="absolute left-1.5 top-1.5 font-mono text-[0.4rem] tracking-[0.15em] uppercase text-white/70">
+                Profile / 01
+              </span>
+            </div>
           </div>
         </div>
 
