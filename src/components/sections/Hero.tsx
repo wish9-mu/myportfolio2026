@@ -67,7 +67,7 @@ export default function Hero() {
         {/* Desktop layout: metadata on left, headline centered/right */}
         <div className="hidden md:grid md:grid-cols-12 md:gap-6 items-end mb-8 flex-1 relative">
           {/* Metadata — moved to profile position */}
-<div className="absolute left-[24%] top-[50%] z-20 w-[240px] space-y-6">
+          <div className="absolute left-[24%] top-[50%] z-20 w-[240px] space-y-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
